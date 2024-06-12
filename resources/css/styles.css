@@ -1,0 +1,118 @@
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: rgb(17, 24, 39); /* Dark blue navy tone */
+            color: #fff; /* White text */
+        }
+       .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 20px;
+            background-color: #282828; /* Darker background for container */
+            border: 1px solid #444; /* Dark gray border */
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Darker shadow */
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+       .header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+       .logo {
+            font-size: 24px;
+            font-weight: bold;
+        }
+       .nav {
+            display: flex;
+        }
+       .nav a {
+            display: inline-block;
+            margin-right: 20px;
+            text-decoration: none;
+            color: #fff; /* White link color */
+        }
+       .nav a:hover {
+            color: #ccc; /* Lighter gray on hover */
+        }
+       .categories {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            padding: 15px;
+            background-color: #222; /* Slightly lighter background */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+       .category {
+            border: 1px solid #444; /* Dark gray border */
+            padding: 10px;
+            text-align: center;
+            cursor: pointer;
+            background-color: #383838; /* Darker background for categories */
+            border-radius: 5px; /* Rounded corners for categories */
+            transition: background-color 0.3s ease; /* Smooth transition for hover effect */
+        }
+       .category:hover {
+            background-color: #444; /* Darker gray on hover */
+        }
+       .new-category {
+            border: 2px solid #444; /* Thicker border for new categories */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Different hover effect for new categories */
+        }
+       .products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+       .product {
+            width: 48%; /* Adjusted width for better layout */
+            border: 1px solid #444; /* Dark gray border */
+            padding: 10px;
+            margin-bottom: 20px;
+            background-color: #383838; /* Darker background for products */
+            border-radius: 10px; /* Rounded corners */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+       .product-title {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .type-products{
+            background-color: #383838;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+        }
+        .type-products h3{
+            text-align: center;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .type-products .categories{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .type-products .categories a{
+            margin: 5px;
+            padding: 10px 15px;
+            background-color: #444;
+            border-radius: 5px;
+            color: white;
+            text-decoration: none;
+        }
+        .type-products .categories a:hover{
+            background-color: #555;
+        }
+        .type-products .categories a.new-category{
+            border: 2px solid #444;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+        }
+ 
